@@ -1,11 +1,8 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
-  <p class="talk-info">
-    @andgokevin | Mozilla VR | **aframe.io**
-  </p>
+  <h1>Realidade Virtual com Linguagens Web</h1>
+  <p>A-Frame - Um framework web para criação de experiências VR</p>
 </div>
 
 <!-- NOTES -->
@@ -14,7 +11,7 @@
 
 ------
 
-# Virtual Reality
+# Realidade Virtual
 
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 
@@ -45,20 +42,20 @@
 
 ---
 
-## Friction of VR Ecosystems
+## Dificuldades dos Ecossistemas VR
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/gatekeeper.png">
-    <i>Gatekeepers</i>
+    <i>Controlados</i>
   </div>
   <div>
     <img data-src="media/img/downloads-installs.png">
-    <i>Installs</i>
+    <i>Instalação</i>
   </div>
   <div>
     <img data-src="media/img/closed-door.png">
-    <i>Closed</i>
+    <i>Fechado</i>
   </div>
 </div>
 
@@ -72,20 +69,20 @@
 
 # WebVR
 
-An open virtual reality platform with the advantages of **the Web**
+Uma plataforma de realidade virtual aberta com as vantagens da **Web**
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/web-is-open.png">
-    <i>Open</i>
+    <i>Aberta</i>
   </div>
   <div>
     <img data-src="media/img/web-is-connected.png">
-    <i>Connected</i>
+    <i>Conectada</i>
   </div>
   <div>
     <img data-src="media/img/web-is-instant.png">
-    <i>Instant</i>
+    <i>Instantânea</i>
   </div>
 </div>
 
@@ -114,8 +111,7 @@ Transition:
 
 <img class="stretch" data-src="media/img/webvr.png">
 
-Browser APIs that enable WebGL rendering to headsets and access to VR
-sensors
+As APIs dos Navegadores que habilitam renderizações WebGL para headsets e acesso a sensores VR
 
 https://w3c.github.io/webvr/
 
@@ -137,8 +133,8 @@ https://webvr.rocks
 
 <div class="captioned-image-row small">
   <div>
-    <img data-src="media/img/firefox-nightly.png">
-    <i>Firefox Nightly</i>
+    <img data-src="media/img/firefox.png">
+    <i>Firefox</i>
   </div>
   <div>
     <img data-src="media/img/edge.jpg">
@@ -177,7 +173,7 @@ https://webvr.rocks
 
 ---
 
-## Metaverse
+## Metaverso
 
 <!-- .slide: data-background="media/img/metaverse.jpg" -->
 
@@ -190,25 +186,25 @@ https://webvr.rocks
 
 ---
 
-Too hard to create WebVR experiences...
+É **muito difícil** criar experiências em WebVR...
 
 ---
 
 <!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
 <div class="slide__boilerplate">
-  <p>Import WebVR polyfill</p>
-  <p>Set up camera</p>
-  <p>Set up lights</p>
-  <p>Initialize scene</p>
-  <p>Declare and pass canvas</p>
-  <p>Listen to window resize</p>
-  <p>Install VREffect</p>
-  <p>Instantiate renderer</p>
-  <p>Create render loop</p>
-  <p>Preload assets</p>
-  <p>Figure out responsiveness</p>
-  <p>Deal with metatags and mobile</p>
+  <p>Importar WebVR polyfill</p>
+  <p>Setar camera</p>
+  <p>Setar luzes</p>
+  <p>Inializar cenas</p>
+  <p>Declarar e passar a tela</p>
+  <p>Cuidar do redimencionamento da tela</p>
+  <p>Instalar VREffect</p>
+  <p>Instanciar o renderizador</p>
+  <p>Criar um loop de renderização</p>
+  <p>Pré-carregamento de conteúdo</p>
+  <p>Descobrir a capacidade de resposta</p>
+  <p>Lidar com meta-tags e smartphones</p>
 </div>
 
 <!-- NOTES -->
@@ -223,7 +219,7 @@ Too hard to create WebVR experiences...
 
 <!-- .slide: data-background="media/img/aframe-rendered-full.png" -->
 
-A web framework for building virtual reality experiences
+Um framework web para criação de experiências de realidade virtual
 
 <!-- NOTES -->
 - Launched last December
@@ -290,7 +286,7 @@ A web framework for building virtual reality experiences
 
 ## Hello Metaverse
 
-<i>by Ada Rose Edwards (@lady_ada_king)</i>
+<i>por Ada Rose Edwards (@lady_ada_king)</i>
 
 <!-- .slide: data-background="media/img/metaverse.jpg" -->
 
@@ -306,7 +302,7 @@ A web framework for building virtual reality experiences
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
-## Works With Everything
+## Trabalha com tudo
 
 <div class="captioned-image-row">
   <div>
@@ -344,7 +340,7 @@ A web framework for building virtual reality experiences
 
 ------
 
-# Entity-Component-System
+# Sistema Entity-Component
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
@@ -360,7 +356,7 @@ A web framework for building virtual reality experiences
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="slide-in none" -->
 
-## Composing an Entity
+## Montando uma Entity
 
 ```html
 <a-entity>
@@ -374,7 +370,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Composing an Entity
+## Montando uma Entity
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -392,7 +388,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Composing an Entity
+## Montando uma Entity
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -406,7 +402,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Composing an Entity
+## Montando uma Entity
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -422,7 +418,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Composing an Entity
+## Montando uma Entity
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -437,7 +433,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Composing an Entity
+## Montando uma Entity
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -478,7 +474,7 @@ A web framework for building virtual reality experiences
 
 <!-- .slide: data-background-color="#333" -->
 
-Curated collection of A-Frame components.
+Coleção com curadoria de componentes A-Frame.
 
 <a class="stretch" href="https://aframe.io/aframe-registry">
   <video loop data-src="media/video/registrypreview.mp4" data-autoplay></video>
@@ -495,7 +491,7 @@ Curated collection of A-Frame components.
 
 <!-- .slide: data-background-color="#333" -->
 
-Curated collection of A-Frame components.
+Coleção com curadoria de componentes A-Frame.
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
 
@@ -505,7 +501,7 @@ Curated collection of A-Frame components.
 
 <!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
 
-Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
+Ferramente visual para A-Frame. Apenas `<ctrl>+<alt>+i`.
 
 <div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
@@ -513,7 +509,7 @@ Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
 
 <!-- .slide: data-background="media/img/header.png" -->
 
-# Community
+# Comunidade
 
 https://aframe.io/blog/
 
@@ -521,7 +517,7 @@ https://aframe.io/blog/
 
 <!-- .slide: data-background="media/img/apainter.gif" -->
 
-# Art - *A-Painter*
+# Arte - *A-Painter*
 
 @mozillavr
 
@@ -529,7 +525,7 @@ https://aframe.io/blog/
 
 <!-- .slide: data-background="media/img/syria.gif" -->
 
-# Journalism - *Fear of the Sky*
+# Jornalismo - *Fear of the Sky*
 
 Amnesty International UK
 
@@ -537,7 +533,7 @@ Amnesty International UK
 
 <!-- .slide: data-background="media/img/mars.jpg" -->
 
-# Journalism - *Journey to Mars*
+# Jornalismo - *Journey to Mars*
 
 The Washington Post
 
@@ -553,7 +549,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/adit.gif" -->
 
-# Data Visualization - *Adit*
+# Visualização de Dados - *Adit*
 
 @datatitian
 
@@ -561,7 +557,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/a-blast.gif" -->
 
-# Gaming - *A-Blast*
+# Jogos - *A-Blast*
 
 @mozillavr
 
@@ -569,7 +565,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/ux.gif" -->
 
-# Prototyping - *UI Widgets*
+# Prototipação - *UI Widgets*
 
 @whoyee
 
@@ -577,7 +573,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/math.gif" -->
 
-# Mathematics - *MathworldVR*
+# Matemática - *MathworldVR*
 
 @sleighdogs
 
@@ -593,7 +589,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/webvrstudio.png" -->
 
-# Tools - *WebVR Studio*
+# Ferramentas - *WebVR Studio*
 
 @webvrstudio
 
@@ -601,7 +597,7 @@ The Washington Post
 
 <!-- .slide: data-background-video="media/video/livetour.mp4" data-background-video-loop="true" -->
 
-# Real Estate - *Live Tour*
+# Estado Real - *Live Tour*
 
 iStaging
 
@@ -609,7 +605,7 @@ iStaging
 
 <!-- .slide: data-background="media/img/cadavr.gif" -->
 
-# Education - *CadaVR*
+# Educação - *CadaVR*
 
 @drryanjames
 
@@ -620,15 +616,15 @@ iStaging
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>180+ contributors 6000+ Stargazers</i>
+    <i>180+ contribuidores 6000+ Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
-    <i>4000+ members on Slack</i>
+    <i>4000+ membros no Slack</i>
   </div>
   <div>
     <img data-src="media/img/scene-collage-circle.png">
-    <i>100s of featured projects</i>
+    <i>100 dos projetos em destaque</i>
   </div>
 </div>
 
