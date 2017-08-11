@@ -633,3 +633,24 @@ iStaging
 - Most work done on GitHub
 - Active community on Slack to share projects, interact, hang out, seek help
 - Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+
+---
+
+
+
+## Sites
+
+* http://aframe.io
+* http://mozillabr.org
+* http://bit.ly/discourse-mozillabr
+* http://wiki,mozilla.org/Brasil
+
+
+
+
+<!-- NOTES -->
+- Open source and inclusive project
+- Most work done on GitHub
+- Active community on Slack to share projects, interact, hang out, seek help
+- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
